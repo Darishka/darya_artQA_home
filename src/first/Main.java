@@ -16,7 +16,7 @@ public class Main {
 
       Set<Integer> keySet = map.keySet();
         for (Integer value :keySet){
-if(map.get(value).contains("hello")){
+if(map.get(value).contains("цься")){
     System.out.println(value+" ");
 }
 
